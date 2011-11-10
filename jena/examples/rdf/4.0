@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+  <rdf
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:pharma="http://www.w3.org/2001/pharma-rdf/3.0#">
+
+  <rdf:Description rdf:ID="EXPR">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>Experiment Entity</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:ID="EQUIP">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>Equipment used in EXPR</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:ID="API">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>API used in EXPR</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:ID="OPCON">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>OPCON used in EXPR</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:ID="PLATFORM">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>PLATFORM used in EXPR</rdfs:label>
+  </rdf:Description>
+
+</rdf>
